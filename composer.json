@@ -1,0 +1,21 @@
+{
+    "name": "thodorisit/ektapi",
+    "description": "Client Library for SearchCulture.gr API written in PHP.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Thodoris Itsios",
+            "email": "thodoris@itsios.eu"
+        }
+    ],
+    "autoload": {
+        "psr-4": { 
+            "thodorisit\\ektapi\\SearchRequest\\": "src/Requests/Search",
+            "thodorisit\\ektapi\\ShowRequest\\": "src/Requests/Show"
+        }
+    },
+    "require": {
+        "php": ">=7.0"
+    }
+}
