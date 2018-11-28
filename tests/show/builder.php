@@ -15,5 +15,5 @@
     
     $show ->byCollection("SOME_DATA") // @Var: string Example: "EIM"
           ->byRecordId("SOME_DATA") // @Var: string Example: "000042-355545"
-          ->byShowType("json") // @Var: string (Allowed: json, xml, html (or) view, rdf)
+          ->byShowType("json") // @Var: string (Allowed: json, xml, html (or) view)
           ->render();
