@@ -6,11 +6,11 @@
     class Show extends Request{
         
         /*
-         * Search by collection name. Give the exact collection name in the language 
-         * defined by the language parameter.
          * @Var: String 
         */
         protected $collection;
+        protected $recordId;
+        protected $VIEW_URI_TYPE;
         
         public function byCollection($c) {
             $this->collection = Validate::validateString($c);
